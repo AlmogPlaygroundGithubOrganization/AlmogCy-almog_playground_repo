@@ -1,0 +1,41 @@
+#Hi this an example generic yml file to check the scan option for CI/CD Security
+
+server:
+  name: "My Application Server"
+  port: "8080" # Port should be a number, not a string
+  max_connections: 1000
+  timeout: 5000
+  logging_enabled: True
+  log_level: "verbose" # Should be one of: "debug", "info", "warning", "error"
+database:
+  name: "my_database"
+  host: "localhost"
+  port: "3306" # Port should be a number, not a string
+  username: "admin"
+  password: "password123" # Avoid using plain-text passwords in configurations
+  connection_pool_size: "20" # Should be a number, not a string
+  max_query_limit: 100 # This value is too low for most applications
+application:
+  name: "My Bad Application"
+  version: "1.0"
+  dependencies:
+    - name: "dependency1"
+      version: "1.2.3" # Version numbers should follow a consistent format
+    - name: "dependency2"
+      version: "latest" # Using "latest" as a version is risky; specify a specific version
+os:
+  name: "Linux"
+  version: "Ubuntu 20.04"
+  kernel_version: "5.4.0-91-generic"
+  packages:
+    - name: "openssl"
+      version: "1.1.1g" # Check for vulnerabilities; ensure it's up to date
+    - name: "bash"
+      version: "5.0.17" # Check for vulnerabilities; ensure it's up to date
+    - name: "curl"
+      version: "7.68.0" # Check for vulnerabilities; ensure it's up to date
+    - name: "nginx"
+      version: "1.18.0" # Check for vulnerabilities; ensure it's up to date
+    - name: "nodejs"
+      version: "12.18.3" # Check for vulnerabilities; ensure it's up to date
+
