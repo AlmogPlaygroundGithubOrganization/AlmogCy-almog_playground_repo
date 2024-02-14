@@ -6,7 +6,7 @@ password={9012873uisdfjkh}
 
 #setting a username and password as plain text (not string)
 username=;ljasdlkn,mnadsf
-password=65465987897846544657988965465465464
+password=K6oOA0FocRjGtu6aUZAA
 
 #setting a username and password as strings
 username="1290kjlhadkflh1"
