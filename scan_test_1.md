@@ -3,7 +3,7 @@ username={asdlkfji1987876324}
 password={9012873uisdfjkh}
 
 username=;ljasdlkn,mnadsf
-password=jkjhsdfgjkf8961123
+password=
 
 ##
 URL=http://www.almogplg.com/test/malware
