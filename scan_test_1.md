@@ -6,11 +6,11 @@ password={9012873uisdfjkh}
 
 #setting a username and password as plain text (not string)
 username=;ljasdlkn,mnadsf
-password=6546598789784654
+password=654659878978465446579889
 
 #setting a username and password as strings
 username="1290kjlhadkflh1"
-password="564987653aaa!!@$"
+password="564987653aaa!!@$65465789745"
 
 ##
 URL=http://www.almogplg.com/test/malware
