@@ -22,5 +22,5 @@ URL=http://www.almogplg.com/test/virus
 URL=http://www.almogplg.com/test/api?malware=true
 
 #Setting up the AWS token and secrets, supposed to be Critical severity:
-AWS_AUTH_TOKEN=wzh.tdr!tpb0BNU3ybp
-AWS_S3_API_TOKEN=exg3abv4zxb-HKQ8kbh
+AWS_AUTH_TOKEN=
+AWS_S3_API_TOKEN=
