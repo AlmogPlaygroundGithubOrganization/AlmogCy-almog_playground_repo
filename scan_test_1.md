@@ -11,6 +11,8 @@ password=091284091724907124097102947
 username="1290kjlhadkflh1"
 password="564987653aaa!!@$65465789745"
 
+MyPassword="XND7qfm*czv3rpu0zmt"
+
 ##
 URL=http://www.almogplg.com/test/malware
 
