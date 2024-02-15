@@ -1,6 +1,6 @@
 import requests
 
-ASANA_API_KEY = 'qkt6zxj8bph!DCT!vat'
+ASANA_API_KEY = "(?i)\\b(?<secret>[0-9]\\/[0-9]{16,}:[a-z0-9]{32,})\\b"
 
 url = 'https://api.asana.com/auth'
 
