@@ -20,7 +20,7 @@ jobs:
         distribution: 'adopt'
 
     - name: Build with Maven
-      run: mvn -B package --file java_file.java
+      run: mvn -B package --file pom.xml
 
     - name: Run Java Application
       run: java -cp target/classes:"target/dependency/*" Main
