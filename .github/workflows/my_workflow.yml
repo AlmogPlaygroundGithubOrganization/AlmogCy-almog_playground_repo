@@ -19,9 +19,9 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
 
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+    - name: Compile Java files
+      run: javac myfile.java
 
     - name: Run Java Application
-      run: java -cp target/classes:"target/dependency/*" myfile
+      run: java -cp . Main
 
