@@ -23,5 +23,5 @@ jobs:
       run: mvn -B package --file /AlmogCy-almog_playground_repo/pom.xml
 
     - name: Run Java Application
-      run: java -cp /AlmogCy-almog_playground_repo/target/classes:"/Users/almog/cycode_almog_playground/AlmogCy-almog_playground_repo/target/dependency/*" Main
+      run: java -cp /AlmogCy-almog_playground_repo/:"/AlmogCy-almog_playground_repo/*" Main
 
