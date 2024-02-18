@@ -20,8 +20,8 @@ jobs:
         distribution: 'adopt'
 
     - name: Build with Maven
-      run: mvn -B package --file /AlmogCy-almog_playground_repo/pom.xml
+      run: mvn -B package --file java_file.java
 
     - name: Run Java Application
-      run: java -cp /AlmogCy-almog_playground_repo/:"/AlmogCy-almog_playground_repo/*" Main
+      run: java -cp target/classes:"target/dependency/*" Main
 
