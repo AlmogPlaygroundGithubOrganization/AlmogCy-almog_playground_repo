@@ -25,7 +25,8 @@ jobs:
     - name: Install Dependencies
       run: |
         npm install -g npm@6  # Install an older version of npm if necessary
-        npm install  # Install project dependencies including the specific dependency you want to use
+        npm install com.thoughtworks.xstream  # Install the required package
+        npm install  # Install project dependencies
 
     # Add more steps here such as testing, linting, building, etc.
 
