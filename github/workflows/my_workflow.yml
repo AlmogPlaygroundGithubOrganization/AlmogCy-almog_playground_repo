@@ -1,0 +1,31 @@
+name: Old Node.js and Dependency Workflow
+
+on:
+  push:
+    branches:
+      - main  # Adjust the branch name as per your requirements
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [5.12.0]  # Specify the old version of Node.js you want to use
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install Dependencies
+      run: |
+        npm install -g npm@6  # Install an older version of npm if necessary
+        npm install  # Install project dependencies including the specific dependency you want to use
+
+    # Add more steps here such as testing, linting, building, etc.
+
