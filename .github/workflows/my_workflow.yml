@@ -23,5 +23,5 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Run Java Application
-      run: java -cp target/classes:"target/dependency/*" Main
+      run: java -cp target/classes:"target/dependency/*" myfile
 
