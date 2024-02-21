@@ -1,0 +1,10 @@
+exclusions:
+  sca:
+    paths:
+    - /Users/almog/cycode_almog_playground/AlmogCy-almog_playground_repo/pom.xml
+    rules:
+    - 95a1f816-1cae-4810-aa6a-b7e16af3bdd6
+  secret:
+    values:
+    - 7a7f2a4ddb04ce2a0b4c7bc29acdddee612fc5c96a400157151403b7a5ba44b0
+    - 9b111029794de284f98a902092cb9fb66f01e6c340f381083b8f948c834b3226
